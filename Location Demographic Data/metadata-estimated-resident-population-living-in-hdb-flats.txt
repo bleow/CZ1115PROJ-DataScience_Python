@@ -1,0 +1,99 @@
+# Metadata for Estimated Singapore Resident Population in HDB Flats
+---
+Identifier: '10ded2fc-f473-4af0-9ab7-18bd13c7066e'
+Name: 'estimated-resident-population-living-in-hdb-flats'
+Title: 'Estimated Singapore Resident Population in HDB Flats'
+Description:
+  - 'Data on Singapore resident population in HDB flats are estimated figures and
+    include residents living in sold and rental flats.'
+  - ''
+  - 'Singapore resident population refers to Singapore Citizens and Permanent Residents
+    only.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Demographics'
+  - 'HDB'
+  - 'Housing'
+  - 'Population'
+  - 'Property'
+  - 'Rental'
+Publisher:
+  Name: 'Housing and Development Board'
+  Admin 1:
+    Name: 'Michelle Tay'
+    Department: 'HDB'
+    Email: 'michelle_mb_tay@hdb.gov.sg'
+  Admin 2:
+    Name: 'Toh Xue Qin'
+    Department: 'HDB'
+    Email: 'toh_xue_qin@hdb.gov.sg'
+Sources:
+  - 'Housing and Development Board'
+Source Url: 'http://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/annual-reports'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2007-04-01 to 2020-03-31'
+Last Updated: '2021-01-26T07:08:50.873643'
+Resources:
+  -
+    Identifier: 'b29c1af8-e11a-4e61-b813-933db9f69633'
+    Title: 'Estimated Resident Population in HDB Flats, by Town'
+    Url: 'https://storage.data.gov.sg/estimated-resident-population-living-in-hdb-flats/resources/estimated-resident-population-in-hdb-flats-by-town-2021-01-26T07-08-50Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-04-01 to 2020-03-31'
+    Description:
+      - 'Figures are rounded off to the nearest ''00'
+      - ''
+      - 'The 3 HDB estates include Bukit Timah, Central Area and Marine Parade.'
+    Last Updated: '2021-01-26T07:08:50.298591'
+    Schema:
+      -
+        Name: 'financial_year'
+        Title: 'Financial Year'
+        Type: 'datetime'
+        Sub Type: 'financial_year'
+        Format: 'YYYY'
+        Description: 'Financial year starts on 1 April and ends on 31 March'
+      -
+        Name: 'town_or_estate'
+        Title: 'Town or Estate'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'population'
+        Title: 'HDB Resident Population'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Persons'
+  -
+    Identifier: 'a7d9516f-b193-4f9b-8bbf-9c85a4c9b61b'
+    Title: 'Estimated Percentage of Singapore Resident Population in HDB Flats'
+    Url: 'https://storage.data.gov.sg/estimated-resident-population-living-in-hdb-flats/resources/estimated-percentage-of-singapore-resident-population-in-hdb-flats-2020-01-02T04-00-57Z.csv'
+    Format: 'CSV'
+    Coverage: '2007-04-01 to 2019-03-31'
+    Description: 'The estimated percentage of Singapore resident population in HDB
+      includes the percentage of resident population living in HDB sold flats and
+      in public rental flats.'
+    Last Updated: '2020-01-02T04:00:57.272148'
+    Schema:
+      -
+        Name: 'financial_year'
+        Title: 'Financial Year'
+        Type: 'datetime'
+        Sub Type: 'financial_year'
+        Format: 'YYYY'
+        Description: 'Financial year starts on 1 April and ends on 31 March'
+      -
+        Name: 'type'
+        Title: 'Type'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'HDB flats include sold flats and public rental flats'
+      -
+        Name: 'percentage_of_pop_in'
+        Title: 'Percentage of Singapore Resident Population'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

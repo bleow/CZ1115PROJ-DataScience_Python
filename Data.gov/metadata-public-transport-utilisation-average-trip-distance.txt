@@ -1,0 +1,55 @@
+# Metadata for Public Transport Utilisation - Average Trip Distance
+---
+Identifier: '8eec7cbd-25e9-43c4-be9e-752678dde745'
+Name: 'public-transport-utilisation-average-trip-distance'
+Title: 'Public Transport Utilisation - Average Trip Distance'
+Description: 'Average trip distance made islandwide on MRT, LRT, bus & taxi.'
+Topics:
+  - 'Transport'
+Keywords:
+  - 'Buses'
+  - 'LRT'
+  - 'MRT'
+  - 'Public Transport'
+  - 'Rail'
+  - 'Taxis'
+  - 'Trains'
+Publisher:
+  Name: 'Land Transport Authority'
+  Admin 1:
+    Name: 'Land Transport Authority'
+    Department: 'Land Transport Authority'
+    Email: 'Datamall@LTA.gov.sg'
+Sources:
+  - 'Land Transport Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2004-01-01 to 2014-12-31'
+Last Updated: '2017-06-07T09:03:10.127675'
+Resources:
+  -
+    Identifier: '5d68d9b1-59d3-4133-a29f-3c301e73e1db'
+    Title: 'Public Transport Utilisation - Average Trip Distance'
+    Url: 'https://storage.data.gov.sg/public-transport-utilisation-average-trip-distance/resources/public-transport-utilisation-average-trip-distance-2017-04-02T13-10-09Z.csv'
+    Format: 'CSV'
+    Coverage: '2004-01-01 to 2014-12-31'
+    Description: 'Average trip distance made islandwide on MRT, LRT, bus & taxi.'
+    Last Updated: '2017-04-02T13:10:09.461386'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'mode'
+        Title: 'Mode'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'ave_distance_per_trip'
+        Title: 'Average Distance Per Trip'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Kilometres'

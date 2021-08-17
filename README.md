@@ -4,7 +4,7 @@
 
 Our team's objective is to make use of Singapore's public transportation and demographics data gathered from APIs to determine in which subzones should future bus stops/MRT stations be built.
 
-## Tech Stack:
+## Tech Stack
 - Data retrieval: Postman API platform
 - Data wrangling: Python
 - Data visualisation: Tableau
@@ -19,7 +19,7 @@ Our team's objective is to make use of Singapore's public transportation and dem
 - Random forest regression
 
 
-## FSP5_Team07 Folder:
+## FSP5_Team07 Folder
 ### Slides: FSP5_Team07 Slides
 The slides provide a quick summary of our project. It covers the overall aim of our project, data extraction and preparation from the APIs, our analysis using regression and time-series forecasting, and the conclusions we draw from our work.
 
@@ -36,5 +36,5 @@ The code in this notebook is used to predict public transportation demand by sub
 ### Tableau: FSP5_Team07 Tableau_Dashboard
 These Tableau visualisations were used to give us a better understanding of our datasets from Notebooks #1 and #2. Visualisations are being divided into 2 main categories, with one containg all subzones, and the other containing only the 20 subzones with the most public transportation traffic. Examples of visualisations included would be "Youngest Subzones", "Average Income" and "00 - 19".
 
-## Datasets Folder:
-Datasets used for this project can be found in this folder.
+## Datasets Folder
+Datasets used for this project can be found in this folder. Examples of these include locations of bus stops and MRT stations, demographics of subzones, and passenger volumes of public tranposrtation.

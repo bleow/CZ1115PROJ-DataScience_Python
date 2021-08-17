@@ -10,7 +10,7 @@ Our team's objective is to make use of Singapore's public transportation and dem
 -Data visualisation: Tableau
 -Presentation: PowerPoint, Premiere Pro
 
-##Algorithms/Libraries
+## Algorithms/Libraries
 -Pandas
 -Autoregression
 -ARIMA

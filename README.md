@@ -4,6 +4,8 @@
 
 Our team's objective is to make use of Singapore's public transportation and demographics data gathered from APIs to determine in which subzones should future bus stops/MRT stations be built.
 
+![image](https://user-images.githubusercontent.com/79437795/129705387-a9627910-2ec1-42e1-9207-c23a213abe20.png)
+
 ## Tech Stack
 - Data retrieval: Postman API platform
 - Data wrangling: Python

@@ -5,18 +5,18 @@
 Our team's objective is to make use of Singapore's public transportation and demographics data gathered from APIs to determine in which subzones should future bus stops/MRT stations be built.
 
 ## Tech Stack:
--Data retrieval: Postman API platform
--Data wrangling: Python
--Data visualisation: Tableau
--Presentation: PowerPoint, Premiere Pro
+- Data retrieval: Postman API platform
+- Data wrangling: Python
+- Data visualisation: Tableau
+- Presentation: PowerPoint, Premiere Pro
 
 ## Algorithms/Libraries
--Pandas
--Autoregression
--ARIMA
--Linear regression
--Decision tree regression
--Random forest regression
+- Pandas
+- Autoregression
+- ARIMA
+- Linear regression
+- Decision tree regression
+- Random forest regression
 
 
 ## FSP5_Team07 Folder:

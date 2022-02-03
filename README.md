@@ -1,6 +1,4 @@
-# CZ1115-PROJECT
- 
-# _Pathfinders_
+# CZ1115 Data Science Project - _Pathfinders_
 
 Our team's objective is to make use of Singapore's public transportation and demographics data gathered from APIs to determine in which subzones should future bus stops/MRT stations be built.
 
